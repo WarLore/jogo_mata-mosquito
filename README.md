@@ -11,19 +11,8 @@ O jogo durá 30 segundos, há a escolha do nível de dificuldade e quanto maior 
 - Chuck Norris: terá 0,75 segundos
 </p>
 <div>
-	
-	Página inicial:
 	<img src="https://github.com/WarLore/imagens_git/blob/master/pagina_inicial.png" width="600" heigth="275" alt="Pagina incial" />
-	
-	Página do jogo:
 	<img src="https://github.com/WarLore/imagens_git/blob/master/pagina_jogo.png" width="600" heigth="275" alt="Pagina do jogo" />
-	
-	
-	Página de vitória:
 	<img src="https://github.com/WarLore/imagens_git/blob/master/pagina_vitoria.png" width="600" heigth="275" alt="Pagina vitoria" />
-	
-	
-	Página de Game Over:
-	<img src="https://github.com/WarLore/imagens_git/blob/master/pagina_gameOver.png" width="600" heigth="275" alt="Pagina game over" />
-	
+	<img src="https://github.com/WarLore/imagens_git/blob/master/pagina_gameOver.png" width="600" heigth="275" alt="Pagina game over" />	
 </div> 
