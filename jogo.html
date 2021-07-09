@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jogo Mata-Mosquito</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body onresize="atualizarTamanhoPalcoJogo()">
+        <!--Painel (vidas e cronometro)-->
+        <div class="painel">
+            <div class="pontos-vida">
+                <img id="v1" src="imagens/coracao_cheio.png">
+                <img id="v2" src="imagens/coracao_cheio.png">
+                <img id="v3" src="imagens/coracao_cheio.png">
+            </div>
+            <div class="cronometro">
+                Tempo restante: <span id="relogio"></span>
+            </div>
+        </div>
+        <!--Funções relacionadas aos mosquitos-->
+        <script>
+            document.getElementById('relogio').innerHTML= tempo
+            var criarMosquito=setInterval(function(){posicaoRandomica()}, tempoCriarMosquito)
+        </script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+body{
+    background: #fff url("../imagens/fundo1.jpg") no-repeat;
+    overflow-x: hidden;
+}
+/*Formatação do painel inferior*/
+.painel{
+    width: 190px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    border-top: 1px solid #fff;
+    opacity: 0.7;
+}
+
+.vidas{
+    float: left;
+}
+
+.cronometro{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*Controle do tamanho do mosquito*/
+.mosquito1{
+    width: 50px;
+    height: 50px;
+}
+.mosquito2{
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3{
+    width: 90px;
+    height: 90px;
+}
+/*Controle do lado de exibição do mosquito*/ 
+/*Não é necessário, mas por questões didáticas será preservada*/
+.ladoA{
+    transform: scaleX(1)
+}
+
+.ladoB{
+    transform: scaleX(-1)
+}
+
